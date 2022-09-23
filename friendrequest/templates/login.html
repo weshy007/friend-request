@@ -1,0 +1,14 @@
+<form class="login-form" action="/login/" method="post">
+    {% csrf_token %}
+    <div>
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="">
+    </div>
+    <div>
+        <label for="username">Password: </label>
+        <input type="password" name="password" id="">
+    </div>
+    <div>
+        <button type="submit">Login</button>
+    </div>
+</form>
